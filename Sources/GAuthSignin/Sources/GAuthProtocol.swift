@@ -24,6 +24,4 @@ public protocol GAuthProtocol {
         accessToken: String,
         _ completion: @escaping (Result<UserInfoResponse, GAuthError>) -> Void
     )
-
-    
 }
