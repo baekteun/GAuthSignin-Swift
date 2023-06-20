@@ -1,7 +1,7 @@
 import Foundation
 import Combine
 
-public class GAuth {
+public class GAuth: GAuthProtocol, AsyncGAuthProtocol, CombineGAuthProtocol {
     public init() {}
 
     public func getGAuthTokenResponse(
